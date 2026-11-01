@@ -1,5 +1,7 @@
 # Budget vs. Actual Variance Analysis
 
+> **Key finding:** Total spend looks fine at +0.7% over budget, but 5 lines run more than 10% over — Contract Labor alone is +$1,650 (+20.6%).
+
 A budget variance report: for each spending category, how far actual
 spending landed from budget in dollars and percent, with the lines that
 need attention flagged instead of buried in a table.
@@ -34,6 +36,28 @@ company financial data is used anywhere in this project.
 - The biggest under-spend, Marketing at $1,270 under (−16.9%), is what
   keeps the total looking calm — exactly why variance is reviewed per
   line and not just in total.
+
+## Recommendations / What I would do next
+
+- **Start with Contract Labor.** At +$1,650 (+20.6%) it is the largest
+  dollar over-run: review what the extra hours bought, who approved
+  them, and whether the work should be insourced, re-scoped, or
+  explicitly re-budgeted instead of drifting.
+- **Audit Cloud & Hosting usage.** +$715 (+22.3%) on a usage-priced line
+  usually means idle resources or an unplanned environment. A usage
+  review and commitment-based pricing check are the standard first
+  moves before accepting the higher run-rate.
+- **Interrogate Miscellaneous.** The highest percentage over-run in the
+  report (+33.5%) is the category with the least definition. Tighten
+  what is allowed to land in Miscellaneous — a growing "misc" line is
+  usually a categorization problem hiding real spending.
+- **Don't let underspend silently fund overspend.** Marketing being
+  $1,270 under is the only reason the total is +0.7%. If that money is
+  to cover the Contract Labor over-run, make it an explicit reallocation
+  decision at the next reforecast, not an accident of netting.
+- **Keep the 10% flag as a monthly habit.** The flagged list (5 lines
+  this period) is short enough to review line by line every month —
+  which is the point of the threshold.
 
 ## The same analysis in Excel
 
